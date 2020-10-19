@@ -17,8 +17,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    @IBAction func onPress(_ sender: UIButton) {
+        sender.isOpaque = false
+        sender.backgroundColor = sender.backgroundColor?.withAlphaComponent(0.5)
+    }
+    
     @IBAction func cKey(_ sender: UIButton) {
         playSound(sender.currentTitle)
+        
+        let seconds = 0.2
+        DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+            sender.backgroundColor = sender.backgroundColor?.withAlphaComponent(1)
+        }
     }
     
     func playSound(_ key: String?) {

@@ -32,6 +32,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="cKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hmT-Np-nce"/>
+                                                    <action selector="onPress:" destination="BYZ-38-t0r" eventType="touchDown" id="9Ax-ih-NUz"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -56,6 +57,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="cKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dYw-fQ-Jq1"/>
+                                                    <action selector="onPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AUc-KN-7eD"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -80,6 +82,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="cKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JUQ-U7-cGJ"/>
+                                                    <action selector="onPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RwA-Sx-zS5"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -104,6 +107,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="cKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJC-sw-fuY"/>
+                                                    <action selector="onPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="msB-YC-KR8"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -128,6 +132,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="cKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QGq-c3-tpy"/>
+                                                    <action selector="onPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sFI-lT-zuw"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -152,6 +157,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="cKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Du-gk-ZRw"/>
+                                                    <action selector="onPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7sS-uW-5qI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -176,6 +182,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="cKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Pg-Dz-WhA"/>
+                                                    <action selector="onPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ctk-yn-Jmh"/>
                                                 </connections>
                                             </button>
                                         </subviews>
